@@ -6,7 +6,7 @@ node {
   }
 
   stage('Check Env Parameters'){
-    echo "my Branch Name : ${env.GIT_BRANCH}"
+    echo "my git Branch Name : ${env.GIT_BRANCH}"
     echo "Octo Server Address : ${env.octoServer}"
   }
 
